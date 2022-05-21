@@ -16,6 +16,8 @@ FROM customers
          JOIN orders
               ON customers.id = orders.customer_id
 ORDER BY order_date;
+
+# EXPLICIT INNER JOIN
 SELECT first_name,
        last_name,
        SUM(amount) AS total_spent

@@ -1,0 +1,2 @@
+CREATE DATABASE tv_review_app;
+SHOW DATABASES;
